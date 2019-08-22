@@ -27,7 +27,6 @@ public class MainController {
         return userRepository.findByNachname(nachname);
     }
 
-    // fgsdfg
     /*
     @GetMapping(value = "/id/{id}")
     public @ResponseBody Optional<User> getUserById(@PathVariable(value = "id") Integer id) {
