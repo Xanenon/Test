@@ -26,7 +26,8 @@ public class MainController {
     public @ResponseBody User findByNachname (@PathVariable(value = "nachname") String nachname) {
         return userRepository.findByNachname(nachname);
     }
-
+	
+	// noch zu überarbeiten
     /*
     @GetMapping(value = "/id/{id}")
     public @ResponseBody Optional<User> getUserById(@PathVariable(value = "id") Integer id) {
